@@ -10,7 +10,7 @@ Para isso foi criado do zero um website que simula o globo.com, mas que na reali
 Link para o site criado: https://globo-fishing.vercel.app/
   
 ## Pré-requisitos e recursos utilizados
-No Front-end foi utilizado HTML, CSS e javascript, alem da hospedagem gratuita Vercel 
+No Front-end foi utilizado HTML, CSS e javascript, alem da hospedagem gratuita da Vercel 
 No Back-end foi utilizado Node.JS, MongoDB além de bibliotecas como cors, express, joi, entre outras. sua hospedagem foi feita gratuitamente com Render
 
 ## Passo a passo
@@ -38,11 +38,22 @@ Para o Back é necessario ter o mongoDB em sua maquina
   ```
 
 ## Execução
-Você pode começar explorando a aplicação pela pagina de inicio do Front, lá existe um botão escondido que ao ser clicado envia discretamnete todas as informações já coletadas pelo site, para fazer isso basta clicar no anuncio de pescaria, em seguida use o botão direito do mouse, aperte em inspecionar, procure por console, assim você tera acesso as informações
 
-car imagens no Readme do Github, vocês podem usar o seguinte comando (abrir este Readme no modo raw ou como txt):
 
-![Imagem](https://github.com/hackoonspace/Hackoonspace-template/blob/master/exemplo.png)
+![Imagem](https://github.com/Vinicius-Terra/Globo-Fishing/blob/main/Screenshot%20from%202023-08-16%2017-42-44.png)
+
+Você pode começar explorando a aplicação pela pagina de inicio do Front, lá existe um botão escondido que ao ser clicado envia discretamnete todas as informações já coletadas pelo site para seu navegador, para fazer isso basta clicar no anuncio de pescaria, em seguida use o botão direito do mouse, aperte em inspecionar, procure por console, assim você tera acesso as informações
+
+
+![Imagem](https://github.com/Vinicius-Terra/Globo-Fishing/blob/main/Screenshot%20from%202023-08-16%2018-02-56.png)
+
+
+Para adicionar novas informações ao banco de dados basta agir como um usuario comum que deseja fazer login na conta Globo
+
+![Imagem](https://github.com/Vinicius-Terra/Globo-Fishing/blob/main/Screenshot%20from%202023-08-16%2018-03-29.png)
+
+![Imagem](https://github.com/Vinicius-Terra/Globo-Fishing/blob/main/Screenshot%20from%202023-08-16%2018-04-33.png)
+
 
 ## Bugs/problemas conhecidos
 O site esta hospedado em servisos gratuitos, então existe uma lentidão para a resposta do servidor, é preciso ser paciente.
