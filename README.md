@@ -7,6 +7,7 @@ No cerne deste projeto encontra-se a concepção de um website com enfoque no de
 A proposta central é proporcionar aos usuários uma experiência educativa e prática, visando ampliar a compreensão sobre os métodos utilizados por agentes maliciosos na internet, com ênfase especial em ataques de phishing.
 Para isso foi criado do zero um website que simula o globo.com, mas que na realidade seria um site malicioso que rouba as informações dos usuarios desavisados
 
+Link para o site criado: https://globo-fishing.vercel.app/
   
 ## Pré-requisitos e recursos utilizados
 No Front-end foi utilizado HTML, CSS e javascript, alem da hospedagem gratuita Vercel 
@@ -26,43 +27,27 @@ Para o Front basta ter uma copia do projeto e arrastar o arquivo HTML para o seu
 
 Para o Back é necessario ter o mongoDB em sua maquina
 
-### Exemplos:
-a)
+1. Crie um arquivo .env e o complete como no arquivo .envExample
+2.
   ```
-  Execute o comando X Y Z, no terminal, na pasta do projeto
+  Execute o comando npm install no terminal, na pasta do projeto
   ```
-b)
-  1. Abra a pasta 
-  2. Execute o comando A B C no terminal
-  3. Compile os arquivos X, Y e Z juntos
-  4. Crie um arquivo W.txt de entrada
+3.
+  ```
+  Execute o comando npm start no terminal, na pasta do projeto
+  ```
 
 ## Execução
-Passos necessários para executar, rodar ou testar seu projeto. Vocês podem seguir o mesmo modelo dos exemplos de Instalação.
+Você pode começar explorando a aplicação pela pagina de inicio do Front, lá existe um botão escondido que ao ser clicado envia discretamnete todas as informações já coletadas pelo site, para fazer isso basta clicar no anuncio de pescaria, em seguida use o botão direito do mouse, aperte em inspecionar, procure por console, assim você tera acesso as informações
 
-## Bugs/problemas conhecidos
-Lista de possíveis problemas, bugs, falhas ou comportamentos esquisitos que o grupo conheça sobre o projeto. Esta seção é importante para que outras pessoas saibam quais tipos de erros elas podem encontrar. Seria legal citar motivos que o grupo acredita que sejam os causadores destas coisas, mas não é obrigatório.
-
-### Exemplo:
-
-O projeto possui uma falha ao abrir a aba INICIO, após realizar uma inserção com caractéres acentuados. Também foi encontrada uma falha ao definir a tela de fundo com a cor Roxa, provavelmente por conta da palheta de cores limitada da tecnologia que foi utilizada.
-
-## Autores
-Aqui, é importante referenciar o nome dos integrantes do grupo. Não precisa de RA. Outras informações, como contato ou perfil no Github, ficam a critério do grupo. Se o grupo for muito grande, é bom referenciar as funções de cada um.
-
-### Exemplo:
-* Marcus Vinícius N. Garcia ([Infinitemarcus](https://github.com/Infinitemarcus))
-* Garcia Neto Junior da Silva
-* João das Neves - Desenvolvedor do Back-End
-
-## Demais anotações e referências (opcional)
-Aqui, o grupo pode colocar quaisquer outras informações que ache relevante, se assim desejar. Links de referências e materiais de estudo utilizados ou recomendados são sempre bem vindos. 
-
-## Imagens/screenshots
-É necessário colocar pelo menos 3 imagens/screenshots do projeto, porém fiquem a vontade para colocar mais, a medida do que vocês acharem legal para ilustrar o projeto.
-
-Para colocar imagens no Readme do Github, vocês podem usar o seguinte comando (abrir este Readme no modo raw ou como txt):
+car imagens no Readme do Github, vocês podem usar o seguinte comando (abrir este Readme no modo raw ou como txt):
 
 ![Imagem](https://github.com/hackoonspace/Hackoonspace-template/blob/master/exemplo.png)
 
-É preferível que vocês usem imagens hospedadas no próprio GitHub do projeto. É só referenciar o link delas no comando acima.
+## Bugs/problemas conhecidos
+O site esta hospedado em servisos gratuitos, então existe uma lentidão para a resposta do servidor, é preciso ser paciente.
+
+## Autores
+* Vinícius Fernandes Terra Silva
+
+
